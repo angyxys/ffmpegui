@@ -16,5 +16,5 @@ python main.py
 ## With .EXE (Use Pyinstaller)
 ### Create with Pyinstaller
 ```bash
-pyinstaller --onefile main.py --name ffmpeggui
+pyinstaller --onefile main.py --name ffmpeggui ==hidden-import -ffmpeg
 ```
